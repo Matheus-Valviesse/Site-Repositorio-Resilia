@@ -1,0 +1,398 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(8, 8, 8);  
+}
+ 
+html{
+    scroll-behavior: smooth;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+    gap:10px;
+}
+
+nav h1{
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    cursor: pointer;
+    letter-spacing: 2px;
+    
+}
+
+nav span{
+    color: greenyellow;
+}
+
+nav ul li{
+    display: inline-block;
+    margin:  13px 0;
+}
+
+
+nav ul li a{
+    padding: 0.5rem 1.5rem;
+    background-color: transparent;
+    background-color: rgb(51, 51, 51);
+    border: solid 3px transparent; 
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+    transition: ease-in-out 0.4s;
+    margin: 1px;
+}
+nav ul li a{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+nav ul li a:hover {
+    border: solid 3px greenyellow;  
+    color: greenyellow;
+}
+
+main div ul li{
+    color: whites;
+}
+
+
+
+
+
+
+.perfil{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap:60px;
+    padding: 3rem 2rem;
+    background-color: rgb(15, 15, 15);
+    border-radius: 2rem;
+}
+.perfil .foto{
+    border-radius: 50%;
+    width: 20vw;
+}
+
+.perfil .descricao,.perfil .nome{
+    color: white;
+}
+
+.perfil .nome span{
+    color: greenyellow;
+}
+.nome{
+    font-size: 4rem;
+    margin-bottom: 0.8rem;
+}
+.descricao{
+    font-size: 1.5rem;
+    width: 54vw;
+}
+
+
+
+
+
+
+
+
+
+.formacoes{
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    border-radius: 2rem;
+}
+
+.formacoes ul li{
+    color:white;
+    list-style-type: none;
+    display: flex;
+    align-items: center
+}
+.formacoes ul li h3{
+    margin: 10px 0;
+    margin-left: 3rem;  
+}
+.formacoes h2{
+    color:white;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.icone{
+    color: greenyellow;
+    font-size: 2rem;
+}
+
+
+
+
+
+.projetos h4{
+    margin: 5px 0;
+}
+
+.projetosfront{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap:10px;
+    padding: 3rem 1rem;
+    background-color: rgb(15, 15, 15);
+    border-radius: 2rem;
+    color: white;
+
+}
+
+
+.form-border {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-border img{
+    max-width: 40vw;
+    border-radius: 10px;
+}
+
+
+.form-border{
+    border: solid 1px greenyellow;
+    border-radius: 10px;
+    width: 42vw;
+    padding: 1%;   
+}
+
+.projetosfront .img{
+    text-align: center;
+}
+
+.form-border ul li{
+    list-style: none;
+}
+
+.projetosfront h5{
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.projetosfront p{
+    font-size: 1rem;
+
+}
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+} 
+
+.contato h5{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.contato span{
+    color: greenyellow;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap:5px;
+}
+
+#nome, #email,#textarea{
+    color: white;
+    border: transparent;
+    background-color: transparent;
+    border: solid 2px greenyellow;
+    border-radius: 5px;
+    padding: 8px;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.campos{
+    display: flex;
+}
+#nome, #email{
+    width: 100%;
+    margin: 3px;
+}
+
+#textarea{
+    width: 100%; 
+    resize: none;
+}
+.enviar{
+    font-size: 1.3rem;
+    padding: 0.3rem 1.4rem;
+    margin-bottom: 3rem;
+    color: white;
+    background-color: rgb(35, 41, 34);
+    border-radius: 10px;
+    border: solid 3px transparent;
+    transition: ease-in-out 0.3s;
+}
+
+.enviar:hover{
+    color: greenyellow;
+    border: solid 3px greenyellow;
+    cursor: pointer;
+    
+
+}
+
+.infos{
+    color: white;
+}
+
+.infos i{
+    font-size: 1.5rem;
+    margin: 0 10px;
+    color: greenyellow;
+}
+
+.infos h5{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 1rem;    
+}
+
+.infos h5 span{
+    color: greenyellow;  
+}
+
+.coll{
+    display: flex;
+    align-content: center;
+    margin: 1rem 0;
+    margin-left: 2rem;
+}
+
+
+
+
+
+
+@media(max-width:600px){
+    nav{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        flex-direction: column;
+        padding: 45px;
+        padding-left: 8%;
+        padding-right: 8%;
+    }   
+
+    .perfil{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .perfil .foto{
+        border-radius: 50%;
+        width: 45vw;
+    }
+
+    .nome{
+        font-size: 2rem;
+    }
+    .descricao{
+        font-size: 1rem;
+        width: 80vw;
+    }
+
+
+
+    .formacoes h2{
+        color:white;
+        margin-bottom: 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    .formacoes ul i{
+        font-size: 1.5rem;
+    }
+    .formacoes ul h3{
+        font-size: 1rem;
+    }
+    
+    .icone{
+        color: greenyellow;
+        font-size: 1rem;
+    }
+
+
+
+
+    
+
+
+}
+
+@media(max-width:800px){
+
+    .projetosfront{
+        flex-direction: column;
+        width: 90vw;
+
+    }
+
+    .form-border img{
+        max-width: 70vw;
+        border-radius: 5px;
+        margin: 0.5rem 0;
+    }
+
+    .form-border ul{
+        margin: 0.2rem 0;
+    }
+    
+    
+    .form-border{
+        border: solid 1px greenyellow;
+        border-radius: 10px;
+        width: 80vw;
+        padding: 1%;   
+
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .campos{
+        flex-direction: column;
+    }
+
+}
