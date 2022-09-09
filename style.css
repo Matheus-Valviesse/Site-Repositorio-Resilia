@@ -130,6 +130,11 @@ main div ul li{
     margin: 10px 0;
     margin-left: 3rem;  
 }
+
+.formacoes ul li h3:last-child{
+    margin-left: 3.5rem;
+}
+
 .formacoes h2{
     color:white;
     margin-bottom: 1rem;
