@@ -144,23 +144,29 @@ main div ul li{
 
 
 
-
+.projetos{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 3rem 1rem;
+    background-color: rgb(15, 15, 15);
+    border-radius: 2rem;
+    color: white;
+}
+.projetos span{
+    color: greenyellow;
+}
 .projetos h4{
-    margin: 5px 0;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    text-align: center;
 }
 
 .projetosfront{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    max-width: 1200px;
-    margin: 0 auto;
-    gap:10px;
-    padding: 3rem 1rem;
-    background-color: rgb(15, 15, 15);
-    border-radius: 2rem;
-    color: white;
-
+    margin: auto;
+    gap: 20px;
 }
 
 
@@ -179,7 +185,7 @@ main div ul li{
 .form-border{
     border: solid 1px greenyellow;
     border-radius: 10px;
-    width: 42vw;
+    width: 40vw;
     padding: 1%;   
 }
 
@@ -351,7 +357,10 @@ footer{
         font-size: 1rem;
     }
 
-
+    .projetos h4{
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    }
 
 
     
@@ -363,7 +372,8 @@ footer{
 
     .projetosfront{
         flex-direction: column;
-        width: 90vw;
+        width: 80vw;
+        align-items: center;
 
     }
 
