@@ -131,7 +131,7 @@ main div ul li{
     margin-left: 3rem;  
 }
 
-.formacoes ul li:last-child h3{
+.formacoes ul li:nth-child(4) h3{
     margin-left: 3.5rem;
 }
 
